@@ -1,4 +1,7 @@
 !#/home/bin/env python3
+# Author: Jack Aldworth
+# Date: 12/4/2023
+# A simple recreation/sim of the hand held toy the etch-a-sketch
 def printboard(arr):
     for i in range(len(arr)):
         
