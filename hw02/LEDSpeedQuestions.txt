@@ -1,0 +1,37 @@
+GPIO Mesurement questions:
+
+1.What's the min and max voltage?
+	Min: -0.1V Max :2.72V
+2. What period and frequency is it?
+	Period:1.02sec  Frequency 977mHz
+3. Run htop and see how much processor you are using.
+	about 0.7%
+4.Try different values for the sleep time. What's the shortest period you can get?
+	fastest period: 0.01 sec
+5.How stable is the period?
+	not very
+6.Try launching something like vi. How stable is the period?
+	very unstable
+7.Try cleaning up blinkLED.sh and removing unneeded lines. Does it impact the period?
+	a little bit but not much
+8.What's the shortest period you can get?
+	Period: 0.01 sec
+
+Python Mesurement questions:
+1. What period and frequency is it?
+	
+2. Run htop and see how much processor you are using.
+	about 22.2%
+
+3. Present the shell script and Python script results in a table for easy comparison.
+
+C Mesurement question:
+
+Repeat the above using C (blinkLED.c). Add your results to the table.
+
+Table
+
+Language | Freqency | period
+Shell	 | 45.2Hz   | 22 ms
+Python	 | 15.02kHz | 66 us
+C	 | 15.54    | 64 us
