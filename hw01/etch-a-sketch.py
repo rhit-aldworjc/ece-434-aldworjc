@@ -1,4 +1,3 @@
-!#/home/bin/env python3
 def printboard(arr):
     for i in range(len(arr)):
         
