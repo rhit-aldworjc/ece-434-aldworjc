@@ -13,3 +13,16 @@ An updated version of the beagleboard example code getset that can match 4 seper
 Button1 = P8_16, Button2 = P8_15, Button3 = P8_12, Button4 = P8_11
 ### LED pin assignments:
 LED1 = P9_14, LED1 = P9_16, LED1 = P8_12, LED1 = P8_26
+
+
+# hw02 grading
+
+| Points      | Description | Comment
+| ----------- | ----------- | -------
+|  2/2 | Buttons and LEDs 
+|  8/8 | Etch-a-Sketch works
+|  2/2 | Measuring a gpio pin on an Oscilloscope 
+|  2/2 | Questions answered
+|  4/4 | Table complete | gpiod times are missing
+|  0/2 | gpiod | missing
+| 18/20   | **Total**
