@@ -10,3 +10,16 @@ Make sure that eQEP is enabled for all rotary encoder pins
 Prints temperature of two temperature sensors every second (temperature mesured in Celsius)
 ## pins:
 P9_19 and P_20 connect to both temperature sensors in parallel
+
+# hw03 grading
+
+| Points      | Description | |
+| ----------- | ----------- |-|
+|  4/8 | TMP101 | Didn't use /sys/class/i2c-adapter/i2c-2/new_device 
+|  2/2 |   | Documentation 
+|  5/5 | Etch-a-Sketch
+|  3/3 |   | setup.sh
+|  2/2 |   | Documentation
+| 16/20 | **Total**
+
+*My comments are in italics. --may*
