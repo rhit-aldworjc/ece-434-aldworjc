@@ -26,3 +26,17 @@ Runs a webserver that controls an 8x8 LED etch-a-sketch
 i2c pins (P9_19, P9_20)
 ### Setup
 Run program then type 192.168.7.2:8081 into a webbrowser then use the controls on the browser to control the etch-a-sketch
+
+# hw04 grading
+
+| Points      | Description | |
+| ----------- | ----------- | - |
+|  2/2 | Memory map 
+|  4/4 | mmap()
+|  4/4 | i2c via Kernel
+|  5/5 | Etch-a-Sketch via flask
+|  5/5 | LCD display
+|      | Extras
+| 20/20 | **Total**
+
+*My comments are in italics. --may*
