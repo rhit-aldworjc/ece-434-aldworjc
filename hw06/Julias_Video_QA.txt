@@ -1,0 +1,42 @@
+1. Where does Julia Cartwright work?
+
+National Instruments
+
+2. What is PREEMT_RT? Hint: Google it.
+
+A set if oatches for the Linux kernal that allows for real-time computing.
+
+3. What is mixed criticality?
+
+When a system has to run two diffrent types of tasks: tasks with realtime requerments and tasks with no time critical requrements.
+
+4. How can drivers misbehave?
+
+The driver stacks are shared, so they can interfeer with each other.
+
+5. What is Δ in Figure 1?
+
+the time between the trigger for an event and the task executes.
+
+6. What is Cyclictest[2]?
+
+A very simple test to determine delta.
+
+7. What is plotted in Figure 2?
+
+A histogram comparing the deltas of preempt and preempt_rt.
+
+8. What is dispatch latency? Scheduling latency?
+
+The dispatch latency is the difference between the the trigger and the program being woken up. The scheduling latency is the difference getwen the program being woken up and the CPU actually beginning to run the program.
+
+9. What is mainline?
+
+Programs that run with higher priority with interupts off.
+
+10. What is keeping the External event in Figure 3 from starting?
+
+The non-time critical program is blocking the interupt for the time critical program until it is done executing.
+
+11. Why can the External event in Figure 4 start sooner?
+The earlyer program now doesn't lock out other programs instead very quick interupts handle switching between programs.
