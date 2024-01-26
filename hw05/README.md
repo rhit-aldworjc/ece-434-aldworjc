@@ -18,3 +18,18 @@ A program that allows for a 8x8 Matrix Etch-a-sketch to have tilt controls
 P9_19, P9_20 : i2c connection
 ### Setup
 Just run the program
+
+# hw05 grading
+
+| Points      | Description |
+| ----------- | ----------- |
+|  0/0 | Project 
+|  2/2 | Makefile
+|  6/6 | Kernel Source
+|  4/4 | Etch-a-Sketch
+|  8/8 | Kernel Modules: hello, ebbchar, gpio_test, led
+|  0/4 | Extras - Blink at different rates
+| 20/20 | **Total**
+
+*My comments are in italics. --may*
+
