@@ -14,12 +14,12 @@ while in folder type command: sudo systemctl enable flask. Then sudo reboot.
 
 | Points      | Description | | |
 | ----------- | ----------- |-|-|
-|  0/2  | Project Template | | *eLinux project info missing*
-|  0/2  | | Names | 
-|  0/2  | | Executive Summary | 
+|  2/2  | Project Template | | 
+|  2/2  | | Names | 
+|  0/2  | | Executive Summary | *missing*
 | 10/10 | Dallas 1-wire
 |  4/4  | systemd auto start |
 |  0    | Blynk - Etch-a-sketch - extra
-| 14/20 | **Total**
+| 18/20 | **Total**
 
 *My comments are in italics. --may*
